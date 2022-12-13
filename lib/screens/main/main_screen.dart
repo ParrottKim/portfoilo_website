@@ -46,6 +46,7 @@ class _MainScreenState extends ConsumerState<MainScreen> {
                 Text(
                   'Hello, I\'m Parrott Kim',
                   style: TextStyle(
+                    fontFamily: 'Raleway',
                     fontWeight: FontWeight.w300,
                     fontSize: 40.0,
                     color: Colors.white,

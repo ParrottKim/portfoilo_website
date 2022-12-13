@@ -19,7 +19,6 @@ class MainNotifier extends ChangeNotifier {
         _controller.setLooping(true);
         _isLoaded = true;
       });
-    notifyListeners();
   }
 
   playVideo() async {
